@@ -1,4 +1,6 @@
 ﻿@{
+    WebSecurity.RequireAuthenticatedUser();
+    
     var galleryId = UrlData[0].AsInt();
 
     var db = Database.Open("PhotoGallery");
